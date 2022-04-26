@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #252525;
+   
+}
+
+.df-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1094px;
+    height: 653px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 160px;
+    border-radius: 10px;
+}
+
+.df-container  span { 
+    color: #FF5C01;
+}
+
+.df-container h1 {
+    font-size: 36px;
+    color: #FF5C01;
+}
+
+.df-container h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    margin: 0 auto;
+}
+
+.df-container .login nav {
+    cursor: pointer;
+    display: flex;
+    gap: 19px;
+    margin: 15px 0px 32px 50px;
+}
+
+.df-container .login {
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.df-container .login form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.df-container .decor {
+    margin-top: 8px;
+} 
+
+.df-container .login form .checkbox {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.df-container .login form .checkbox input {
+    margin-top: -1px;
+    margin-right: 10px;
+}
+
+.df-container .login form input {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid #D3D3D3;
+    background-color: #F2F2F2;
+    color: #777777;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.df-container .login form button {
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px 50px 10px 50px;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    border-radius: 10px;
+    border: solid 1px #FF5C01;
+}
+
+.df-container .login form .in{
+    color: #FF5C01;
+    background-color: white;
+}
+
+.df-container .login form .up{
+    color: white;
+    background-color: #FF5C01;
+}
+
+.df-container .login form input:checked {
+    background: #FF5C01;
+}
